@@ -1,0 +1,21 @@
+SubtitleViewer
+==============
+
+This is a project I did back in 2009 to allow me use SRT files that were totally out of sync by manually displaying them line by line.
+
+It uses Java Native Interface (JNI) calls in C to instruct Windows/Mac OS X to hide system toolbars (start menu, etc) and displays on top of your media player.
+
+It is set up as an Eclipse project and you can build it from there.
+
+Usage
+-----
+* Open your movie in whatever media player you like.
+* Switch to SubtitleViewer and open your SRT file.
+* Start your movie and switch back to SubtitleViewer.
+* Press **escape** to quit, **left arrow** to go back a line, and any other key to proceed.
+
+I have used this on my MacBook Pro with an Apple Remote quite successfully, but it certainly is no fun to flick through each subtitle manually.
+
+Copyright
+---------
+Copyright (c) 2009 Daniel Heffernan. See LICENSE.txt for further details.
